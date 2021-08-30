@@ -1,0 +1,20 @@
+{
+  "name": "3-asincronismo",
+  "version": "1.0.0",
+  "description": "asincronismo con JS",
+  "main": "1-callbacks.js",
+  "scripts": {
+    "start:callbacks": "node 1-callbacks.js",
+    "start:promise": "node 2-promesas.js",
+    "start:async": "node 3-async-await.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
